@@ -26,25 +26,25 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col justify-between h-full w-full text-center text-white px-6 py-10">
         {/* Top Text */}
-        <p className="text-lg md:text-xl font-medium mt-25">
+        <p className="text-lg md:text-xl font-medium mt-25" >
           IEEE SB CE Poonjar presents
         </p>
 
         {/* Middle Title */}
-        <h1 className="text-6xl md:text-8xl font-extrabold mb-15 tracking-wide font-asimovian">
+        <h1 className="text-6xl md:text-8xl font-extrabold mb-15 tracking-wide " style={{ fontFamily: 'Audiowide, sans-serif' }}>
           Synergy'25
         </h1>
 
         {/* Bottom Info + Button */}
         <div className="space-y-3 mb-15">
-          <p className="text-xl md:text-2xl font-light font-karla">
-            September 27th and 28th
+          <p className="text-xl md:text-2xl font-light ">
+            September 27th & 28th
           </p>
-          <p className="text-lg md:text-2xl font-medium font-karla ">
+          <p className="text-lg md:text-2xl font-medium ">
             College of Engineering, Poonjar
           </p>
         <a href="#registration" class="gradient-button-shimmer">
-            Register Now
+            REGISTER NOW
         </a>
 
         </div>

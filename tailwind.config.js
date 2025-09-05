@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        asimovian: ["Asimovian", "sans-serif"],
+        audiowide: ["Audiowide", "sans-serif"], 
         fira: ["Fira Sans", "sans-serif"],
         karla: ["Karla", "sans-serif"],
         nunito: ["Nunito", "sans-serif"],

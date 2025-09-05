@@ -1,7 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,7 +13,7 @@
             color: white;
             font-size: 15px;
             font-weight: 600;
-            padding: 16px 32px;
+            padding: 11px 34px;
             border-radius: 50px;
             text-decoration: none;
             position: relative;
@@ -30,3 +28,9 @@
             transform: translateY(-3px);
             box-shadow: 0 20px 40px rgba(104, 53, 222, 0.45);
         }
+body{
+    font-family: 'Karla', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
