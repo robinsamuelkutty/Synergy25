@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Countdown from './components/Countdown'
 import About from './components/About'
 import Registration from './components/Registration'
 import MapComponent from './components/Map'
@@ -43,6 +44,7 @@ const App = () => {
               <>
                 <Navbar />
                 <Hero/>
+                <Countdown/>
                 <About/>
                 <Registration/>
                 <MapComponent  locationData={locationDetails}/>

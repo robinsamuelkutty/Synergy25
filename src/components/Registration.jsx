@@ -1,5 +1,7 @@
-import React from "react";
+import {useEffect} from "react";
 import DecryptedText from "./DecryptedText";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // --- Data for the tickets ---
 // This makes it easy to add or change tickets in the future.
 const ticketData = [
@@ -29,7 +31,8 @@ const ticketData = [
 // --- Single Ticket Component ---
 // This component is reusable for each ticket type.
 const Ticket = ({ data }) => (
-  <div className="w-[350px] h-[550px] bg-black/50 border border-violet-900/40 rounded-2xl flex overflow-hidden relative backdrop-blur-md transition-all duration-300 ease-in-out shadow-lg shadow-violet-900/30 hover:-translate-y-2 hover:shadow-2xl hover:shadow-violet-600">
+  
+  <div className="w-[350px] h-[550px] bg-black/50 border border-violet-900/40 rounded-2xl flex overflow-hidden relative backdrop-blur-md transition-all duration-300 ease-in-out shadow-lg shadow-violet-900/30 hover:-translate-y-2 hover:shadow-2xl hover:shadow-violet-600" data-aos="fade-up">
     {/* Intricate background pattern */}
     <div
       className="absolute inset-0 bg-[20px_20px] opacity-50"
@@ -86,6 +89,9 @@ const Ticket = ({ data }) => (
 );
 
 const Registration = () => {
+  useEffect(() => {
+      AOS.init({ duration: 800, offset: 150 });
+    }, []);
   return (
     <div
       className="  text-gray-100 min-h-screen flex flex-col justify-center items-center p-8"
@@ -104,7 +110,7 @@ const Registration = () => {
         />
       </h1>
 
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center gap-8"  >
         {ticketData.map((ticket) => (
           <Ticket key={ticket.id} data={ticket} />
         ))}

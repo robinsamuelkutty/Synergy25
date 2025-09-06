@@ -132,7 +132,7 @@ const MapComponent = ({ locationData }) => {
 
   return (
     <div
-      id="location-map"
+      id="contact"
       className="bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 font-mono text-white antialiased"
       
     >

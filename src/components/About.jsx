@@ -29,9 +29,9 @@ const About = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center justify-center p-6 rounded-2xl">
             <img
-              src="/ieee png.png"
+              src="/synergy.white.png"
               alt="IEEE Logo"
-              className="max-h-22 md:max-h-24 object-contain"
+              className="max-h-17 md:max-h-17 object-contain"
             />
           </div>
 
@@ -86,8 +86,7 @@ const About = () => {
             </h2>
             <p className="text-lg leading-relaxed max-w-3xl">
               <DecryptedText
-                text="The IEEE Communications Society (ComSoc) Chapter focuses on advancing communication technologies. Our chapter conducts events, talks, and projects to empower students with knowledge in networking, wireless communication, and modern digital technologies."
-                animateOn="view"
+                text="The IEEE Communication Society is the leading global organization dedicated to advancing communication technologies. With over 30,000 members worldwide, it serves as a trusted source for information, networking, and professional development for researchers, engineers, educators, and industry professionals. Our mission is to promote the advancement of communication systems and technologies and support the professional growth of our members."
                 revealDirection="left"
                 speed={120}
                 maxIterations={12}
@@ -124,7 +123,7 @@ const About = () => {
             </h2>
             <p className="text-lg leading-relaxed max-w-3xl">
               <DecryptedText
-                text="IEEE SB CE Poonjar is a vibrant student branch under IEEE Kerala Section. We aim to foster innovation, technical growth, and professional development through workshops, hackathons, technical talks, and outreach programs, building a strong community of future engineers."
+                text="IEEE Student Branch College of Engineering Poonjar (STB05341) , sustaining all the strategies proposed by the IEEE society from the beginning of 2014 .This branch falls in the KOCHI HUB of IEEE LINK. The tremendous participation for this branch at this present condition gives a fascinating future for the growth of IEEE society with workshops, adamant and creative ideas and so on. The student branch conducts regular activities like seminars, Paper presentations, Technical talks and Awareness Programs."
                 animateOn="view"
                 revealDirection="right"
                 speed={120}
