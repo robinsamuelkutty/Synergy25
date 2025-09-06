@@ -6,7 +6,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const heroSection = document.getElementById("hero");
+    const heroSection = document.getElementById("home");
 
     const handleScroll = () => {
       if (heroSection) {
