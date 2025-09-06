@@ -39,7 +39,7 @@ const Hero = () => {
           />
           {/* ✨ UPDATED: Added a tagline for impact ✨ */}
           <p className="text-xl md:text-lg font-light  text-gray-200">
-            Spark Your Passion. Fuel the Future.
+            In collaboration with IEEE ComSoc Kerala Chapter
 
           </p>
         </div>
