@@ -17,9 +17,10 @@ const Footer = () => {
           {/* Column 1: Branding & Logos */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/ieee png.png" alt="SPSKC" className="w-18 h-10" />
-              <img src="/sb.png" alt="HTB" className="w-18 h-16" />
-              <img src="/ComSoc Logo White.png" alt="IEEE ComSoc" className="w-18 h-10" />
+              
+              <img src="/sb.png" alt="HTB" className="w-18 h-18" />
+              <img src="/20yearComSoc_White[1].png" alt="SPSKC" className="w-30 h-10" />
+              <img src="/ComSoc Logo White.png" alt="IEEE ComSoc" className="w-20 h-10" />
             </div>
             <h3 className="text-xl font-bold mb-2 text-center md:text-left">Synergy'25</h3>
             <p className="text-gray-400 text-sm text-center md:text-left">

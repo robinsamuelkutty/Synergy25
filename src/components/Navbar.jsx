@@ -38,6 +38,9 @@ const Navbar = () => {
           <a href="#about">
             <img src="/ComSoc Logo White.png" alt="IEEE" className="w-14 md:w-18" />
           </a>
+          <a href="#about">
+            <img src="/20yearComSoc_White[1].png" alt="IEEE" className="w-40 md:w-40" />
+          </a>
         </div>
 
         {/* Desktop Menu */}

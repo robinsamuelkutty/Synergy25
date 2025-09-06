@@ -108,16 +108,16 @@ const About = () => {
         >
           <div className="flex-shrink-0 flex items-center justify-center p-6 rounded-2xl">
             <img
-              src="/ComSoc Logo White.png"
+              src="/20yearComSoc_White[1].png"
               alt="ComSoc Logo"
-              className="max-h-22 md:max-h-24 object-contain"
+              className="max-h-17 md:max-h-17 object-contain"
             />
           </div>
 
           <div className="flex flex-col justify-start text-left">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               <TextType
-                text={["ABOUT IEEE COMSOC CHAPTER"]}
+                text={["ABOUT IEEE COMSOC KERALA CHAPTER"]}
                 typingSpeed={100}
                 pauseDuration={1500}
                 showCursor={true}
@@ -126,7 +126,7 @@ const About = () => {
             </h2>
             <p className="text-lg leading-relaxed max-w-3xl">
               <DecryptedText
-                text="The IEEE Communication Society is the leading global organization dedicated to advancing communication technologies. With over 30,000 members worldwide, it serves as a trusted source for information, networking, and professional development for researchers, engineers, educators, and industry professionals. Our mission is to promote the advancement of communication systems and technologies and support the professional growth of our members."
+                text="The IEEE Communications Society Kerala Chapter is the central hub for communication technology advancement in Kerala. Guided by Chair Job Chunkath, it serves engineers, researchers, educators, and students statewide by organizing flagship summits such as ‘6G & Beyond’ and student-driven initiatives like the All Kerala ComSoc Student Conclave. Through collaboration and professional engagement, the chapter advances resilient and forward-looking communication systems."
                 revealDirection="left"
                 speed={120}
                 maxIterations={12}
