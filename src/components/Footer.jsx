@@ -98,7 +98,7 @@ const Footer = () => {
           <p className="mt-2">
             Designed by{' '}
             <a 
-              href="https://www.linkedin.com/in/your-profile-url/" // <-- IMPORTANT: Replace this with your LinkedIn profile URL
+              href="https://www.linkedin.com/in/robinsamuelkutty/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="font-semibold text-gray-400 hover:text-[#6835DE] hover:underline transition-colors duration-300"
