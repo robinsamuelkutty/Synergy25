@@ -1,9 +1,6 @@
 // src/components/Hero.jsx
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import HeroContent from "./HeroContent";
-
-// Lazily import the heavy component
-const PrismaticBurst = lazy(() => import("./PrismaticBurst"));
 
 const Hero = () => {
   return (
@@ -11,23 +8,19 @@ const Hero = () => {
       id="home"
       className="relative w-full h-screen flex flex-col justify-between items-center overflow-hidden"
     >
-      {/* Background Animation */}
+      {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        {/* Suspense provides a fallback while the component loads */}
-        <Suspense fallback={<div className="w-full h-full bg-black" />}>
-          <PrismaticBurst
-            animationType="rotate3d"
-            intensity={2}
-            speed={0.5}
-            distort={1.0} // Remember to try lowering this
-            paused={false}
-            offset={{ x: 0, y: 0 }}
-            hoverDampness={0.25}
-            rayCount={24} // And this
-            mixBlendMode="lighten"
-            colors={["#ff007a", "#4d3dff", "#ffffff"]}
-          />
-        </Suspense>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline // Important for mobile devices
+          className="w-full h-full object-cover brightness-[.50]"
+        >
+          {/* IMPORTANT: Replace 'your-video.mp4' with the actual name of your video file */}
+          <source src="/Hero.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       {/* Content (now in a separate component) */}
