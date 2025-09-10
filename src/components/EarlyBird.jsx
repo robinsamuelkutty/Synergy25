@@ -94,7 +94,7 @@ const Ticket = ({ data }) => {
           ))}
           
         </main>
-        <a href="#registration" className="gradient-button-shimmer">
+        <a href="https://forms.gle/Ucr9CqLmYRroYA6s5" className="gradient-button-shimmer">
           REGISTER NOW
         </a>
 
