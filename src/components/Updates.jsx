@@ -17,10 +17,10 @@ import Updates4 from '../assets/Updates4.jpg';
 
 // Placeholder images
 const placeholderImages = [
-  Updates1,
-  Updates2,
+  Updates4,
   Updates3,
-  Updates4
+  Updates2,
+  Updates1
 ];
 
 
