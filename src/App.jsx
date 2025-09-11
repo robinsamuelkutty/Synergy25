@@ -9,6 +9,7 @@ import EarlyBird from './components/EarlyBird'
 import MapComponent from './components/Map'
 import Footer from './components/Footer'
 import Schedule from './components/Schedule'
+import Updates from './components/Updates'
 const App = () => {
   const locationDetails = {
     name: "Event Venue",
@@ -48,6 +49,7 @@ const App = () => {
                 <Hero/>
                 <Countdown/>
                 <About/>
+                <Updates/>
                 {/* <Registration/> */}
                 <EarlyBird/>
                 <Schedule/>
