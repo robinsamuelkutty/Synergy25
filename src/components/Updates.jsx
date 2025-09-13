@@ -15,13 +15,17 @@ import Updates3 from '../assets/Updates3.jpg';
 import Updates4 from '../assets/Updates4.jpg';
 
 
-// Placeholder images
+// Original array of images
 const placeholderImages = [
   Updates4,
   Updates3,
   Updates2,
   Updates1
 ];
+
+// UPDATED: Create a new array with the images duplicated
+// This provides enough slides for the loop to work correctly.
+const allImages = [...placeholderImages, ...placeholderImages];
 
 
 const Updates = () => {
@@ -63,6 +67,7 @@ const Updates = () => {
         centeredSlides={true}
         slidesPerView={'auto'}
         loop={true}
+        // You can often remove loopAdditionalSlides when duplicating the array, but it's fine to leave it.
         loopAdditionalSlides={1}
         coverflowEffect={{
           rotate: 50,
@@ -76,10 +81,10 @@ const Updates = () => {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="w-full max-w-6xl"
       >
-        {placeholderImages.map((src, index) => (
+        {/* UPDATED: Map over the new 'allImages' array */}
+        {allImages.map((src, index) => (
           <SwiperSlide 
             key={index} 
-            // UPDATED: Added responsive classes for slide size
             className="!w-[320px] !h-[320px] md:!w-[400px] md:!h-[400px] rounded-2xl overflow-hidden bg-[#2a0e4f] shadow-2xl shadow-black/30"
           >
             <img 
