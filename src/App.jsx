@@ -10,6 +10,8 @@ import MapComponent from './components/Map'
 import Footer from './components/Footer'
 import Schedule from './components/Schedule'
 import Updates from './components/Updates'
+import Speakers from './components/Speakers'
+
 const App = () => {
   const locationDetails = {
     name: "Event Venue",
@@ -53,6 +55,7 @@ const App = () => {
                 {/* <Registration/> */}
                 <EarlyBird/>
                 <Schedule/>
+                <Speakers/>
                 <MapComponent  locationData={locationDetails}/>
                 <Footer/>
               </>
