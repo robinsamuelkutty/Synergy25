@@ -1,6 +1,7 @@
 // src/components/Speakers.js
 
 import React from 'react';
+import DecryptedText from './DecryptedText';
 import ChromaGrid from './ChromaGrid';
 
 // (Your imports and speakersList array remain the same)
@@ -40,9 +41,9 @@ const Speakers = () => {
   return (
     // UPDATED: Changed overflow-hidden to overflow-x-hidden to allow vertical scroll
     <div className="relative flex flex-col min-h-screen w-full items-center justify-center overflow-x-hidden text-white py-20">
-      <h1 className="text-5xl font-bold mb-16 text-center drop-shadow-[0_0_10px_#a78bfa]">
-        Meet Our Speakers
-      </h1>
+      <h1 className="text-5xl font-bold text-center text-white mb-20 drop-shadow-[0_0_10px_#a78bfa]">
+                <DecryptedText text="MEET OUR SPEAKERS" animateOn="view" speed={120} />
+              </h1>
 
       {/* Container for the ChromaGrid */}
       {/* UPDATED: Removed the fixed height style to make the container responsive */}
