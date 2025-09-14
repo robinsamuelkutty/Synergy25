@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 import Updates1 from '../assets/Updates1.jpg';
 import Updates2 from '../assets/Updates2.jpg';
 import Updates3 from '../assets/Updates3.jpg';
-import Updates4 from '../assets/Updates4.jpg';
+import Updates4 from '../assets/Updates5.jpg';
 
 
 // Original array of images

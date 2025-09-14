@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import Countdown from './components/Countdown'
 import About from './components/About'
 import Registration from './components/Registration'
-import EarlyBird from './components/EarlyBird'
+// import EarlyBird from './components/EarlyBird'
 import MapComponent from './components/Map'
 import Footer from './components/Footer'
 import Schedule from './components/Schedule'
@@ -52,8 +52,8 @@ const App = () => {
                 <Countdown/>
                 <About/>
                 <Updates/>
-                {/* <Registration/> */}
-                <EarlyBird/>
+                <Registration/>
+                {/* <EarlyBird/> */}
                 <Schedule/>
                 <Speakers/>
                 <MapComponent  locationData={locationDetails}/>
