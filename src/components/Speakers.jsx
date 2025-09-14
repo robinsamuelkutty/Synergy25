@@ -8,6 +8,7 @@ import ChromaGrid from './ChromaGrid';
 import speaker1 from '../assets/Princii.jpg';
 import speaker2 from '../assets/sai.jpg';
 import speaker3 from '../assets/madduma.jpg';
+import speaker4 from '../assets/noble.jpg';
 
 const speakersList = [
   {
@@ -33,6 +34,14 @@ const speakersList = [
     handle: "      ",
     borderColor: "#EC4899", // Pink
     gradient: "linear-gradient(145deg, #EC4899, #1a052d)",
+  },
+  {
+    image: speaker4,
+    title: "Noble Chakradhar",
+    subtitle: " Application Engineer - IICT India",
+    handle: "      ",
+    borderColor: "#F59E0B", 
+    gradient: "linear-gradient(165deg,#F59E0B,#000)",
   },
 ];
 
