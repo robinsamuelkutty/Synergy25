@@ -9,6 +9,7 @@ import speaker1 from '../assets/Princii.jpg';
 import speaker2 from '../assets/sai.jpg';
 import speaker3 from '../assets/madduma.jpg';
 import speaker4 from '../assets/noble.jpg';
+import speaker5 from '../assets/Varghese.jpg';
 
 const speakersList = [
   {
@@ -43,6 +44,14 @@ const speakersList = [
     borderColor: "#F59E0B", 
     gradient: "linear-gradient(165deg,#F59E0B,#000)",
   },
+  {
+    image: speaker5,
+    title: "Varghese Benny",
+    subtitle: "Founder and CEO - Rabbitsquare",
+    handle: "      ",
+    borderColor: "#10B981", 
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+  },
 ];
 
 
@@ -50,7 +59,7 @@ const Speakers = () => {
   return (
     // UPDATED: Changed overflow-hidden to overflow-x-hidden to allow vertical scroll
     <div className="relative flex flex-col min-h-screen w-full items-center justify-center overflow-x-hidden text-white py-20">
-      <h1 className="text-5xl font-bold text-center text-white mb-20 drop-shadow-[0_0_10px_#a78bfa]">
+      <h1 className="text-4xl font-bold text-center text-white mb-20 drop-shadow-[0_0_10px_#a78bfa]">
                 <DecryptedText text="MEET OUR SPEAKERS" animateOn="view" speed={120} />
               </h1>
 

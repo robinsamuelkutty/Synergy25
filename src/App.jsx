@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Schedule from './components/Schedule'
 import Updates from './components/Updates'
 import Speakers from './components/Speakers'
+import Workshops from './components/Workshops'
 
 const App = () => {
   const locationDetails = {
@@ -56,6 +57,7 @@ const App = () => {
                 {/* <EarlyBird/> */}
                 <Schedule/>
                 <Speakers/>
+                <Workshops/>
                 <MapComponent  locationData={locationDetails}/>
                 <Footer/>
               </>

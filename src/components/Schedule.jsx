@@ -113,7 +113,7 @@ const Schedule = () => {
       style={{ backgroundColor: "#1a052d" }}
     >
       <div className="container mx-auto">
-        <h1 className="text-5xl font-bold text-center text-white mb-20 drop-shadow-[0_0_10px_#a78bfa]">
+        <h1 className="text-4xl font-bold text-center text-white mb-20 drop-shadow-[0_0_10px_#a78bfa]">
           <DecryptedText text="EVENT SCHEDULE" animateOn="view" speed={120} />
         </h1>
 

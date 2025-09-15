@@ -65,7 +65,7 @@ const Ticket = ({ data }) => (
           </p>
         ))}
       </main>
-      <a href="https://forms.gle/Ucr9CqLmYRroYA6s5" class="gradient-button-shimmer">
+      <a href="https://forms.gle/Ucr9CqLmYRroYA6s5" className="gradient-button-shimmer">
         REGISTER NOW
       </a>
 
@@ -100,7 +100,7 @@ const Registration = () => {
       }}
       id="registration"
     >
-      <h1 className="text-5xl font-bold text-white mb-10 drop-shadow-[0_0_10px_#a78bfa] ">
+      <h1 className="text-4xl font-bold text-white mb-10 drop-shadow-[0_0_10px_#a78bfa] ">
         <DecryptedText
           text="REGISTRATION"
           animateOn="view"

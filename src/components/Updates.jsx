@@ -42,7 +42,7 @@ const Updates = () => {
         }
       `}</style>
 
-      <h1 className="text-5xl font-bold text-white mb-10 drop-shadow-[0_0_10px_#a78bfa]">
+      <h1 className="text-4xl font-bold text-white mb-10 drop-shadow-[0_0_10px_#a78bfa]">
         <DecryptedText
           text="UPDATES"
           animateOn="view"
