@@ -15,10 +15,12 @@ import Updates3 from '../assets/Updates3.jpg';
 import Updates4 from '../assets/Updates5.jpg';
 import Updates5 from '../assets/Updates6.jpg';
 import Updates6 from '../assets/Updates7.jpg';
+import Updates7 from '../assets/Updates8.jpg';
 
 
 // Original array of images
 const placeholderImages = [
+  Updates7,
   Updates6,
   Updates5,
   Updates4,

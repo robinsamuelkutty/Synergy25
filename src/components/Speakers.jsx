@@ -7,7 +7,7 @@ import ChromaGrid from './ChromaGrid';
 // (Your imports and speakersList array remain the same)
 import speaker1 from '../assets/Princii.jpg';
 import speaker2 from '../assets/sai.jpg';
-import speaker3 from '../assets/madduma.jpg';
+import speaker3 from '../assets/sujith.jpg';
 import speaker4 from '../assets/noble.jpg';
 import speaker5 from '../assets/Varghese.jpg';
 
@@ -30,8 +30,8 @@ const speakersList = [
   },
   {
     image: speaker3,
-    title: "Dr. Pasan Maduranga",
-    subtitle: " Senior Lecturer, University of Sri Jayewardenepura, Sri Lanka",
+    title: "Sujith Surendran",
+    subtitle: " Certified life skills soft skills Master Trainer, Srishti Innovative",
     handle: "      ",
     borderColor: "#EC4899", // Pink
     gradient: "linear-gradient(145deg, #EC4899, #1a052d)",
