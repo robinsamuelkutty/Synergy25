@@ -120,7 +120,7 @@ const Workshops = () => {
     },
     {
       title: '',
-      description: 'TALK SESSION: Campus to Corporate Lead by Mr. Sujith Surendran, Certified Life Skills Soft Skills Master Trainer, Srishti Innovative Navigating the transition from campus life to the corporate world can be a challenge. We are proud to host Mr. Sujith Surendran, a highly-regarded Master Trainer, who will share invaluable insights on the personal and professional attributes that companies value most. He will provide actionable advice on essential topics, including mastering interviews and building a professional brand through effective etiquette. This session will equip you with the competitive edge needed to land your dream job and thrive in the corporate environment.',
+      description: 'TALK SESSION: Campus to Corporate Lead by Mr. Sujith Surendran, Certified Life Skills Soft Skills Master Trainer, Srishti Innovative Navigating the transition from campus life to the corporate world can be a challenge. We are proud to host Mr. Sujith Surendran, a highly-regarded Master Trainer, who will share invaluable insights on the personal and professional attributes that companies value most. He will provide actionable advice on essential topics, including mastering interviews and building a professional brand through effective etiquette. ',
       posterUrl: Workshop3
     },
   ];
